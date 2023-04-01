@@ -1,0 +1,105 @@
+.unsplash1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 247, 247);
+  }
+
+  .gotstory {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 65px;
+  }
+
+  .gotstory h1 {
+    line-height: 3rem;
+    width: 400px;
+  }
+
+  .gotstory p{
+    line-height: 2rem;
+  }
+
+  .returnstory1 {
+    border: 2px solid red
+  }
+
+  .gridcontainer {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  }
+  
+  .griditems {
+    padding: 20px;
+  }
+  
+  .description {
+    width: 350px;
+    height: 300px;
+   
+  }
+  .descript {
+    width: 400px;
+    margin-bottom: 10px;
+    
+  }
+  @media screen and (max-width: 900px){
+    .gotstory {
+      width: 50%;
+      margin-left: 45px;
+    }
+    .unsplash1 img {
+      width: 100%;
+      margin-top: 100px;
+    }
+    .gridcontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .description {
+      width: 200px;
+      height: 200px;
+    }
+    .descript {
+      width: 200px;
+    }
+    
+    .griditems1 p{
+      width: 200px;
+    }
+  }
+ 
+  @media screen and (max-width: 400px) {
+    .unsplash1{
+      display: block;
+      
+    }
+    .gotstory {
+      width: 90%;
+      margin-left: 20px;
+    }
+    .unsplash1 img {
+      width: 90%;
+      margin: 0 20px;
+    }
+    .gridcontainer {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      width: 90% ;
+      margin: 0 20px;
+    }
+    .griditems {
+      padding: 0;
+      margin-top: 20px;
+    }
+    .griditems img{
+      width: 300px !important 
+    }
+    .griditems1 h6{
+      width: 300px
+    }
+    .griditems1 {
+      margin-top: 30px; 
+    }
+  }
+  

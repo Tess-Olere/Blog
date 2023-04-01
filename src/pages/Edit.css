@@ -1,0 +1,83 @@
+.crt-story {
+  margin: 0 70px 0 70px;
+}
+.createstory{
+  margin-top: 15px;
+}
+
+.create-input {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    border: 1px solid rgb(172, 171, 171)
+  }
+
+  .create-input1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    border: 1px solid rgb(172, 171, 171)
+  }
+
+  .create-input2 {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    resize: vertical;
+    border: 1px solid rgb(172, 171, 171)
+  }
+
+  .create-input3{
+    margin-top: 30px;
+  }
+  .createstory-btn {
+    border: none;
+    background-color: #0086B0;
+    width: 439px;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .createstory-btndiv {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 1200px) {
+    .crt-story {
+      margin: 0 70px 0 55px;
+    }
+    .create-sm {
+      width: 100%;
+    }
+    .create-input, .create-input1, .create-input2 {
+      border: 1px solid rgb(172, 171, 171)
+    }
+  } 
+  @media screen and (max-width: 900px){
+    .crt-story {
+      margin: 0 50px 0 50px;
+    }
+    .createstory{
+      margin-top: 50px;
+    }
+  } 
+  @media screen and (max-width: 768px){
+    .crt-story {
+      margin: 0 40px 0 40px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .crt-story {
+      margin: 0 25px 0 25px;
+    }
+    .create-input2 {
+      margin-top: 31px;
+    }
+    .create-input1 {
+      border: 1px solid grey
+    }
+    
+  }

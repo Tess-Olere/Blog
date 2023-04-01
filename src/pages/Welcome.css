@@ -1,0 +1,135 @@
+.unsplash2{
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .welcome {
+    margin-top: 55px;
+    /* width: 80%; */
+    margin-left: 60px;
+  }
+  .welcomepage-btn {
+    display: flex;
+    gap: 20px;
+    margin-left: 60px;
+  }
+
+  .welcomepage-btn1 {
+    border: none;
+    width: 230px;
+    background-color: #0086B0;
+    border-radius: 5px;
+    color: white;
+  }
+  .welcomepage-btn a{
+    text-decoration: none !important;
+    color: white;
+   }
+  .welcomepage-btn2 a{
+    text-decoration: none !important;
+    color: #0086B0;
+   }
+  .welcomepage-btn2 {
+    width: 230px;
+    border:2px solid #0086B0;
+    border-radius: 5px;
+    color: #0086B0;
+  }
+  
+
+  @media screen and (max-width: 900px){
+    .unsplash2{
+      margin-bottom: 29rem;
+    }
+    .welcome p {
+      width: 90%
+    }
+    
+    .welcome {
+      height: auto;
+      margin-left: 40px;
+     }
+     .welcomepage-btn{
+      margin-left: 40px;
+     }
+    .welcomepage-btn1 {
+      border: none;
+      width: 150px;
+    background-color: #0086B0;
+    border-radius: 5px;
+    color: white;
+    }
+    .welcomepage-btn2 {
+      width: 150px;
+      border:2px solid #0086B0;
+      border-radius: 5px;
+      color: #0086B0;
+    }
+   .unsplash2 img {
+    width: 50%; 
+   } 
+  }
+  @media screen and (max-width: 835px){
+    .unsplash2 {
+      margin-bottom: 29.6rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .unsplash2 {
+      display: flex !important;
+      margin-bottom: 14.5rem;
+      
+      /* height: 100vh; */
+    }
+
+   .welcome {
+    margin-left: 40px;
+   }
+   .welcomepage-btn{
+    margin-left: 40px;
+   }
+   .welcomepage-btn1 {
+    width: 150px;
+   }
+   .welcomepage-btn2 {
+    width: 150px;
+   }
+   
+   .unsplash2 img {
+    width: 50%;
+    margin-top: 10px;
+   }
+  }
+  @media screen and (max-width: 600px) {
+    .unsplash2{
+      margin-bottom: 0;
+    }
+    .unsplash2 {
+      display: block !important;
+    }
+   .unsplash2 img {
+    width: 90%;
+    margin: 10px 0px 0px 40px;
+   }
+  }
+
+  @media screen and (max-width: 500px) {
+    .unsplash2 {
+      display: block !important;
+    }
+    .welcome {
+      height: auto;
+      width: 90%;
+      margin: 20px 0px 0px 25px;
+     }
+     .unsplash2 img {
+      width: 90%;
+      margin: 10px 0px 0px 15px;
+     }
+     .welcomepage-btn {
+      
+      gap: 20px;
+      margin-left: 30px;
+    }
+  }

@@ -1,0 +1,73 @@
+.nav1 {
+    gap: 10px;
+    margin-left: 60px; 
+    margin-right: 60px; 
+    margin-left: 5%; 
+    width: 90%;
+    
+}
+.postit-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 10px 
+}
+.postit2 {
+    display: flex;
+}
+.hambug {
+    display: none;    
+}
+.leftext {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    gap:10px; 
+    margin-top: 15px;
+}
+.navl {
+    display: flex;
+    text-decoration: none;
+}
+.navl p {
+    color: #292929 
+}
+.avatar {
+    display: flex;
+}
+@media screen and (max-width: 900px) {
+    .navl {
+        display: flex;
+    }
+    .avatar {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 550px){
+    .nav1{
+        margin: 0px 25px 0px 25px;
+    }
+    .hambug {
+        display: flex;
+        z-index: 10; color: #a1a1a1; 
+    }
+    .leftext{
+        display: none;
+    }
+.postit2{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+}
+@media screen and (max-width: 450px){
+   
+    
+    .navl {
+        display: none;
+    }
+    .avatar {
+        display: none;
+    }
+}

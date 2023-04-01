@@ -1,38 +1,301 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+.imagetext1 {
+  position: absolute;
+  top: 250px;
+  width: 600px;
+  margin-left: 80px;
+  left: 50px;
+}
+.imagetext1 h1 {
+  font-size: 70px;
+  font-weight: 100px;
+}
+.imagetext1 p {
+  font-size: 20px;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboardimage1 {
+  position: relative;
+}
+.dashboard {
+  background-image: url("./images/Rectangle3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 616px;
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.staycurious-button {
+  border: none;
+  margin-top: 10px;
+  width: 25%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0086b0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.imagetext p {
+  width: 40rem;
+  line-height: 2.5rem;
+}
+.image3 {
+  border: 2px solid rgb(236, 232, 232);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+.image4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.images2 {
+  width: 146px;
+  height: 96px;
+  border-radius: 3px;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.images2-div .t1 {
+  background-color: #e5bf5e;
+  border-radius: 3px;
+  width: 85px;
+  height: 24px;
+  color: #fdfeff;
+}
+.images2-div .t2 {
+  background-color: green;
+  border-radius: 3px;
+  width: 85px;
+  height: 24px;
+  color: #fdfeff;
+}
+.images2-div .t3 {
+  background-color: rgb(75, 100, 238);
+  border-radius: 3px;
+  width: 90px;
+  height: 24px;
+  color: #fdfeff;
+}
+.images2-div p {
+  width: 217px;
+  height: 24px;
+}
+.reDuce1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reDuce {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.bottomimage {
+  position: relative;
+  width: 100%;
+}
+.text2 {
+  position: absolute;
+  top: 60rem;
+}
+.text2 h3 {
+  display: flex;
+  justify-content: center;
+}
+.text2 p {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.form1 button {
+  color: #fffbfb;
+  background-color: #0086b0;
+  border: none;
+  width: 132px;
+  height: 30px;
+}
+.B {
+  color: #0086b0;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(248, 245, 245, 0.4);
+}
+
+@media only screen and (max-width: 1200px) {
+  .imagetext1 p {
+    font-size: 18px;
+    width: 500px;
   }
-  to {
-    transform: rotate(360deg);
+  .imagetext1 {
+    position: absolute;
+    width: 500px;
+    top: 150px;
+  }
+
+  .image4 {
+    display: block;
+  }
+  .reDuce {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .reDuce1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottomimage {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .form1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .form1 button {
+    color: #fffbfb;
+    background-color: #0086b0;
+    border: none;
+    width: 132px;
+    height: 30px;
+  }
+  .text2 {
+    top: 63rem;
+  }
+  .images2-div p {
+    width: 217px;
+    height: 24px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .imagetext1 {
+    left: 20px;  
+    top: 200px; 
+    
+    } 
+}
+
+@media screen and (max-width: 768px) {
+  .stay-curious {
+    font-size: 40px !important;
+  }
+  .imagetext1 {
+    position: absolute;
+    left: 25px;
+    top: 200px;
+  }
+  .imagetext1 p {
+    font-size: 18px;
+  }
+  .image3 {
+    display: block !important;
+  }
+  .image4 {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+  }
+  .images2-div {
+    width: 100%;
+    gap: 10px;
+  }
+  .images2-div p {
+    width: 100%;
+  }
+  .text2 {
+    top: 72rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .imagetext1 {
+    left: 20px;
+    top: 200px;
+    
+  }
+  .imagetext1 h1 {
+    font-size: 50px !important;
+  }
+  .imagetext1 p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text2 p {
+    font-size: 14px;
+  }
+  .imagetext1 p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .imagetext1 h1 {
+    font-size: 50px !important;
+    
+  }
+  .imagetext1 {
+  left: 5px;  
+  top: 150px; 
+  } 
+  
+  .image3 {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .images2 {
+    height: 90px !important;
+    width: 100px !important;
+    margin-left: 5px !important;
+  }
+  .text2 {
+    width: 90%;
+    text-align: center;
+    top: 71rem;
+  }
+  .bottomimage {
+    height: 15rem;
+  }
+
+  .B {
+    text-align: center;
+  }
+
+  .Quick-Menu {
+    gap: 170px;
+    width: 100%;
+  }
+  .dashboardimage1 {
+    height: 30rem !important;
+  }
+
+  .avatar {
+    display: none;
   }
 }

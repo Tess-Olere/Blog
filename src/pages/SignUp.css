@@ -1,0 +1,78 @@
+.join-postit h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.join-postit p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bod-w{
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #888;
+  }
+
+  .signup {
+    display: flex;
+    justify-content: center;
+    background-color: #888;
+  }
+
+  .signup0 {
+    background-color: white;
+    padding: 10px;
+    margin: 80px;
+    border: 2px solid #888;
+    width: 80%;
+  }
+
+  .signup1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .existing-account {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .existing-account a {
+    text-decoration: none;
+  }
+
+  .signup-button {
+    border: none;
+    margin-top: 50px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0086B0;
+    color: white;
+  } 
+  
+  .signup2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 400px) {
+    .signup0 {
+      background-color: white;
+      margin: 20px;
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      
+    }
+    .bod-w{
+      width: 70%;
+      border: none;
+      border-bottom: 1px solid #888;
+      
+    }
+  }

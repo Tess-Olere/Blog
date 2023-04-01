@@ -1,0 +1,236 @@
+.footer {
+background: #292929;
+margin-top: 50px;
+max-width: auto;
+/* max-height: 100vh ; */
+}
+.footer1 {
+  width: auto !important;
+}
+.about-postit {  
+width: 18rem;
+}
+.about-postit h6 {
+    color: #FDFEFF;
+    margin-top: 20px;
+}
+.postittext {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 1.5rem ;  
+}
+.Quick-Menu {
+    /* gap: 150px; */
+    /* width: 40rem; */
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center
+   }
+.Quick-Menu-nav {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px; 
+    
+}
+.Quick-Menu-nav h5 {
+    color: #FDFEFF;
+    font-size: 13px;  
+}
+.Quick-Menu-nav p {
+    margin-top: 15px;
+}
+
+.Quick-Menu-nav2 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;  
+    margin-top: 25px;
+}
+.newsletter {
+    width: 20rem;
+    margin-top: 50px; 
+}
+.newsletter form {
+  position: relative;
+}
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin: 0 70px 0 70px; 
+  }
+  .subscribed {
+    margin-top: 5px;
+    color: #FDFEFF;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .subscribeb {
+    color: #FFFBFB;
+    background:#0086B0;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    left: 225px;
+    top: 5px;
+  }
+  .subscribe{
+    position: absolute;
+    padding:4px;
+    width: 20rem;
+    
+  }
+  hr {
+    color: #FDFEFF;
+  }
+  .terms {
+    display:flex;
+     justify-content: flex-end;
+     gap: 15px;
+     margin-right: 70px;
+  }
+  .terms p {
+    color: #FDFEFF;
+  }
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+  .P {
+    color: white;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 900px){
+    .footer1 {
+      gap: 1rem;
+      margin: 0 40px 0 40px; 
+    }
+    .subscribe{
+      position: absolute;
+      padding:4px;
+      width: 15rem;
+      
+    }
+    .subscribeb {
+      position: absolute;
+      left: 148px;
+      top: 5px;
+    }
+    .Quick-Menu-nav {
+      width: 100px 
+    }
+    .Quick-Menu-nav2 {
+      width: 80px 
+  }
+  }
+  @media screen and (max-width: 850px){
+    .subscribe{
+      padding:2px;
+      width: 10rem;
+    }
+    .subscribeb {
+      color: #FFFBFB;
+      background:#0086B0;
+      width: 90px;
+      height: 25px;
+      position: absolute;
+      left:0px;
+      top: 30px;
+    }
+    .newsletter{
+      width: 200px
+    }
+    .Quick-Menu-nav {
+      color: white
+    }
+  }
+  @media screen and (max-width: 768px){
+    .footer1{
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .newsletter{
+      width: 200px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    .subscribe{
+      width: 20rem;
+    }
+    .subscribeb {
+      position: absolute;
+      left: 228px;
+      top: 3px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer1{
+      display: grid;
+      grid-template-columns: auto 100px;
+      gap: 0;
+    }
+    .Quick-Menu-nav2 {
+      margin-right: 300px;
+      margin-top: 0;
+    }
+    .subscribe{
+      width: 17rem;
+    }
+    .newsletter{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      position: relative;
+      right: 190px
+    }
+    .subscribeb {
+      position: absolute;
+      left: 180px;
+      top: 3px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .footer1 {
+    width: 85%;
+    margin-left: 30px;
+   }
+   
+   .Quick-Menu {
+    width: auto !important;
+   }
+  
+   .terms {
+    margin-left: 40px;
+   }
+  }
+  @media screen and (max-width: 500px) {
+    .footer1{
+      grid-template-columns: auto;
+        gap: 1rem;
+        margin: 0 20px 0 20px; 
+      
+    }
+    .Quick-Menu-nav {
+      margin-right: 20px;
+    }
+    .Quick-Menu{
+      display: block;
+    }
+    .newsletter{
+      right: 3px
+    }
+  }
+  /* @media only screen and (max-width: 420px) {
+    .footer1{
+      grid-template-columns: auto;
+    }
+    .Quick-Menu{
+      display: block;
+    }
+    .newsletter{
+      right: 3px
+    }
+  } */
+  
+  
+
