@@ -5,7 +5,7 @@ import './Login.css'
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const url ='http://localhost:3000/api/v1/login'  
+  const url ='https://post-it-ylvw.onrender.com/api/v1/login'  
 
   const redirect = useNavigate();
 

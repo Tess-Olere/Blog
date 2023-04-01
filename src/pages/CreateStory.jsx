@@ -11,7 +11,7 @@ export default function CreateStory() {
   const [tag, setTag] = useState('')
   const [createdBy, setCreatedBy] = useState('')
   const [image, setImage] = useState(null)
-  const url = 'http://localhost:3000/api/v1/blog'
+  const url = 'https://post-it-ylvw.onrender.com/api/v1/blog'
   const token =JSON.parse(localStorage.getItem('token'))
 console.log(token);
 

@@ -13,7 +13,7 @@ export default function MyStories() {
   const { userId } = useParams();
   const token =JSON.parse(localStorage.getItem('token'))
 
-const url = `http://localhost:3000/api/v1/blog`
+const url = `https://post-it-ylvw.onrender.com/api/v1/blog`
 
 
 const fetchStory = async () => {
@@ -32,7 +32,7 @@ useEffect(() => {
 }, [])
 
 const handleDelete = async (id) => {
-  const url = `http://localhost:3000/api/v1/blog/${id}`
+  const url = `https://post-it-ylvw.onrender.com/api/v1/blog/${id}`
   const res = await fetch(url, {
     method: 'DELETE',
     headers: {

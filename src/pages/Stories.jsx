@@ -7,7 +7,7 @@ import unsplash1 from '../images/unsplash1.png'
 import { Link, useNavigate } from 'react-router-dom'
 
 export default function Stories({onSearch}) {
-  const url = 'http://localhost:3000/api/v1/allblog'
+  const url = 'https://post-it-ylvw.onrender.com/api/v1/allblog'
   const [stories, setStories] = useState([])
   const [isLoading, setLoading] = useState(true)
   const token =JSON.parse(localStorage.getItem('token'))

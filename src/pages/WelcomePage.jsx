@@ -12,7 +12,7 @@ export default function WelcomePage() {
   // }, [name]);
  
   const [user, setUser] = useState('')
-  const url= 'http://localhost:3000/api/v1/user'
+  const url= 'https://post-it-ylvw.onrender.com/api/v1/user'
   const token = JSON.parse(localStorage.getItem('token'));
   const fetchUser = async()=>{
     const res = await fetch(url, {

@@ -13,7 +13,7 @@ export default function ReadMore() {
 
   const token = JSON.parse(localStorage.getItem("token"));
 
-  const url = `http://localhost:3000/api/v1/allblog/${blogId}`
+  const url = `https://post-it-ylvw.onrender.com/api/v1/allblog/${blogId}`
 
   const fetchPosts = async () => {
     const res = await fetch(url, {
