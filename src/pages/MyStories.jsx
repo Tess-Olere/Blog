@@ -61,7 +61,7 @@ const handleDelete = async (id) => {
         </div>
         <hr className='HR'/>
       </div>
-       {isLoading}
+       {isLoading  && <p>Loading...</p>}
       {stories.map((story) => {
         const {_id,title,description} = story
         console.log(story)

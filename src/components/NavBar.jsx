@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import './NavBar.css'
-import { Modal } from "react-bootstrap";
+// import { Modal } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Postit1 from "../images/Postit1.jpg";
 import { Cross as Hamburger } from "hamburger-react";
 import NavLocker from "./NavLocker";
-import SignUp from "../pages/SignUp";
+// import SignUp from "../pages/SignUp";
 
 
 export default function NavBar({ text1, text2, text3, text4 }) {
@@ -24,15 +24,15 @@ export default function NavBar({ text1, text2, text3, text4 }) {
   const defaultStyle = "top-0 w-100";
   const defaultStyle1 = "top-0 w-100 bg-white";
 
-  const [showSignUpModal, setShowSignUpModal] = useState(false);
-  const handleSignUpButtonClick = () => {
-    setShowSignUpModal(true);
-  }
-  const handleSignUpFormSubmit = (event) => {
-    event.preventDefault(); // prevent the default form submission
-    // handle the login logic here
-    setShowSignUpModal(false); // close the modal
-  } 
+  // const [showSignUpModal, setShowSignUpModal] = useState(false);
+  // const handleSignUpButtonClick = () => {
+  //   setShowSignUpModal(true);
+  // }
+  // const handleSignUpFormSubmit = (event) => {
+  //   event.preventDefault(); // prevent the default form submission
+  //   // handle the login logic here
+  //   setShowSignUpModal(false); // close the modal
+  // } 
 
 
   
@@ -41,7 +41,7 @@ export default function NavBar({ text1, text2, text3, text4 }) {
       <div>
         <div className="nav" >
           <div className="postit2">
-              <NavLink to="/">
+              <NavLink to="/welcome">
                 <img src={Postit1} alt="logo" className="mt-2"/>
               </NavLink>
               <div className="ham">
@@ -64,15 +64,15 @@ export default function NavBar({ text1, text2, text3, text4 }) {
               </NavLink>
              
             </div>
-            <NavLink className="sTories2" >
-            <button className="sTories2-btn"onClick={handleSignUpButtonClick}>{text4}</button>
+            <NavLink className="sTories2" to='/signup'>
+            <button className="sTories2-btn">{text4}</button>
             </NavLink>
           
           </div>
         </div>
         {isOpen && <NavLocker isOpen={isOpen} setOpen={setOpen} />}
       </div>
-      <div className='modal1' >
+      {/* <div className='modal1' >
       <Modal contentClassName='custom-modal-style' show={showSignUpModal} onHide={() => setShowSignUpModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>SignUp</Modal.Title>
@@ -83,7 +83,7 @@ export default function NavBar({ text1, text2, text3, text4 }) {
           </form>
         </Modal.Body>
       </Modal>
-      </div>
+      </div> */}
     </div>
   );
 }

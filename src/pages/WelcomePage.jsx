@@ -3,6 +3,7 @@ import './Welcome.css'
 import Footer from '../components/Footer'
 import NavBarB from '../components/NavBarB'
 import unsplash from '../images/unsplash.jpg'
+import { NavLink } from 'react-router-dom'
 
 export default function WelcomePage() {
   // useEffect(() => {
@@ -13,6 +14,7 @@ export default function WelcomePage() {
   const [user, setUser] = useState('')
   const url= 'https://post-it-ylvw.onrender.com/api/v1/user'
   const token = JSON.parse(localStorage.getItem('token'));
+
   const fetchUser = async()=>{
     const res = await fetch(url, {
       headers: {
@@ -25,6 +27,7 @@ export default function WelcomePage() {
   useEffect(()=>{
     fetchUser()
   }, [])
+  
   return (
     <div className='s'>
         <NavBarB text1='Stories' text2='Contact'/>
@@ -36,9 +39,12 @@ export default function WelcomePage() {
                       Esse quam quae consequatur velit tempora omnis, assumenda impedit eveniet autem voluptatibus repellendus magni possimus expedita! Dolores totam quibusdam itaque numquam debitis?</p>
                 </div>
                 <div className='welcomepage-btn'> 
-            <button className='welcomepage-btn1'><a href='/mystories'>My Stories</a></button>
-            <button  className='welcomepage-btn2'><a href='/stories'>Go to Feed</a></button>
-           
+                <NavLink to='/mystories'>
+            <button className='welcomepage-btn1'>My Stories</button>
+            </NavLink>
+            <NavLink to='/stories'>
+            <button  className='welcomepage-btn2'>Go to Feed</button>
+            </NavLink>
             </div>
             </div>
             <img src={unsplash} alt="" />

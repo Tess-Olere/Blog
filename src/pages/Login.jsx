@@ -46,10 +46,10 @@ export default function Login() {
                     </div>
                     <div className='signup2'>
                     <button type='submit'className='signup-button'>Continue</button><br/>
-                    </div>
-                    
+                    </div> 
                 </form>
-                <h6 className='existing-account '>No Account?<a href='/Signup'> SignUp</a></h6>
+                
+                <h6 className='existing-account'>No Account?<a href='/Signup'> SignUp</a></h6>
                 
             </div>
         </div>

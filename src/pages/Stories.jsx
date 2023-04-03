@@ -5,7 +5,7 @@ import NavBarB from '../components/NavBarB'
 import unsplash1 from '../images/unsplash1.png'
 import { Link } from 'react-router-dom'
 
-export default function Stories({onSearch}) {
+export default function Stories() {
   const url = 'https://post-it-ylvw.onrender.com/api/v1/allblog'
   const [stories, setStories] = useState([])
   const [isLoading, setLoading] = useState(true)
@@ -41,19 +41,17 @@ useEffect(() => {
       
         </div>
 
-        {isLoading}
+        {isLoading && <p>Loading...</p>}
         <div className='gridcontainer'>
         {stories.map((story) =>{
           const { _id, title, description, tag, image} = story
           console.log(story);
           return (
-            <div className='griditems'>
-            <div key ={_id} className='griditems1'>
+            <div key ={_id} className='griditems'>
+            <div className='griditems1'>
             <img src={image} alt='imager'  className='description'/>
-              {/* <p>{createdBy}</p> */}
               <h4 className='descript'>{title}</h4>
               <p className=''>{tag}</p>
-              
               <h6 className='descrip'>{description.substring(0, 100)}...</h6>
               <Link to={`/read/${_id}`}><h6>Read more...</h6></Link>
               

@@ -35,6 +35,7 @@ export default function ReadMore() {
   return (
     <div >
       <NavBarB text1='Stories' text2='Contact'/>
+      {isLoading && <p>Loading...</p>}
       <div className='Read'>
       <img className='readimg' src={stories.image} alt="" />
       <h1>{stories.title}</h1>

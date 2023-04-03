@@ -8,12 +8,22 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+
+}
+.signupform1 {
+  background-color: white;
+  padding: 10px;
+  margin: 55px;
+  border: 2px solid #888;
+  width: 60vh;
+  height: 85vh;
 }
 
 .bod-w{
     width: 50%;
     border: none;
     border-bottom: 1px solid #888;
+    
   }
 
   .signup {
@@ -28,6 +38,7 @@
     margin: 80px;
     border: 2px solid #888;
     width: 80%;
+    
   }
 
   .signup1 {

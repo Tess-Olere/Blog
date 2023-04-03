@@ -28,7 +28,7 @@ export default function SignUp() {
   }
   return (
     <div className='signup'>
-        <div className='signupform'  >
+        <div className='signupform1'  >
             <div className='join-postit'>
             <h2>Join Post<span className='B'>it.</span></h2>
             <p>Enter your Email address to create an account</p>

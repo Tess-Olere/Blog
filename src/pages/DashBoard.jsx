@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Container } from 'react-bootstrap'
 import NavBar from '../components/NavBar';
 import Rectangle5 from '../images/Rectangle5.jpg'
@@ -6,24 +6,26 @@ import Rectangle5b from '../images/Rectangle5b.jpg'
 import Rectangle5c from '../images/Rectangle5c.jpg'
 import Rectangle38 from '../images/Rectangle38.jpg'
 import Footer from '../components/Footer'
-import { Modal } from 'react-bootstrap';
-import Login from '../pages/Login';
+import { NavLink } from 'react-router-dom';
+// import { Modal } from 'react-bootstrap';
+// import Login from '../pages/Login';
 
 
 
 export default function DashBoard() {
-const [showSignUpModal, setShowSignUpModal] = useState(false);
+// const [showSignUpModal, setShowSignUpModal] = useState(false);
    
 
-   const handleSignUpButtonClick = () => {
-     setShowSignUpModal(true);
-   }
+//    const handleSignUpButtonClick = () => {
+//      setShowSignUpModal(true);
+//    }
  
-   const handleSignUpFormSubmit = (event) => {
-     event.preventDefault(); // prevent the default form submission
-     // handle the login logic here
-     setShowSignUpModal(false); // close the modal     
-   }
+//    const handleSignUpFormSubmit = (event) => {
+//      event.preventDefault(); // prevent the default form submission
+//      // handle the login logic here
+//      setShowSignUpModal(false); // close the modal     
+//    }
+   
    
   return (
     <div>
@@ -33,7 +35,9 @@ const [showSignUpModal, setShowSignUpModal] = useState(false);
                      <h1>Stay curious.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minus repellendus architecto sequi delectus,
                       laborum ea odit eum dolor necessitatibus a, quasi mollitia hic. Similique eius corrupti facilis omnis sit.</p>
-                 <button type='submit' onClick={handleSignUpButtonClick} className='staycurious-button'>Continue</button><br/>
+                      <NavLink to='/login'>
+                 <button type='submit' className='staycurious-button'>Continue</button><br/>
+                 </NavLink>
                 </Container>
          </div>
 
@@ -75,7 +79,7 @@ const [showSignUpModal, setShowSignUpModal] = useState(false);
                </div>
             </div>
          <Footer />
-         <Modal show={showSignUpModal} onHide={() => setShowSignUpModal(false)}>
+         {/* <Modal show={showSignUpModal} onHide={() => setShowSignUpModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Login</Modal.Title>
         </Modal.Header>
@@ -84,7 +88,7 @@ const [showSignUpModal, setShowSignUpModal] = useState(false);
             <Login />
           </form>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
      </div>
         
     

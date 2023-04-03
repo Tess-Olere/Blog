@@ -34,7 +34,7 @@ export default function NavBarB({text1, text2}) {
     <div className="postit-2">
       <div className="postit2">
         <div className="mt-2">
-          <NavLink to="/"><img src={Postit1} alt="logo" /></NavLink>
+          <NavLink to="/welcome"><img src={Postit1} alt="logo" /></NavLink>
         </div>
         <div
           className="hambug">
