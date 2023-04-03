@@ -1,18 +1,15 @@
 import React from 'react'
 import './Footer.css'
-import { Container } from 'react-bootstrap'
 import {NavLink } from 'react-router-dom'
 import twitter1 from '../images/twitter1.jpeg'
 import facebook1 from '../images/facebook1.jpeg'
 import linkedin1 from '../images/linkedin1.jpeg'
-import { useState } from 'react'
 
 export default function Footer() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
-  function handleLogout() {
-    setIsLoggedIn(false); 
-    
-  }
+  // const [isLoggedIn, setIsLoggedIn] = useState(true);
+  // function handleLogout() {
+  //   setIsLoggedIn(false); 
+  // }
 
   return (
     <div className='footer'>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './NavBar.css'
-import { Container, Modal } from "react-bootstrap";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Modal } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import Postit1 from "../images/Postit1.jpg";
 import { Cross as Hamburger } from "hamburger-react";
 import NavLocker from "./NavLocker";

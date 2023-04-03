@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Welcome.css'
-import { Container, NavLink } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import NavBarB from '../components/NavBarB'
 import unsplash from '../images/unsplash.jpg'

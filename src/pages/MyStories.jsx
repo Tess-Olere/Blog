@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './MyStories.css';
-import { Container } from 'react-bootstrap'
-import { NavLink, useParams, Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import NavBarB from '../components/NavBarB'
 import {RiDeleteBin6Line} from 'react-icons/ri'
@@ -10,7 +9,7 @@ import {RiDeleteBin6Line} from 'react-icons/ri'
 export default function MyStories() {
   const [stories, setStories] = useState([])
   const [isLoading, setLoading] = useState(true)
-  const { userId } = useParams();
+  // const { userId } = useParams();
   const token =JSON.parse(localStorage.getItem('token'))
 
 const url = `https://post-it-ylvw.onrender.com/api/v1/blog`

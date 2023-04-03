@@ -1,8 +1,6 @@
 import React from 'react'
 import { NavLink, useNavigate } from "react-router-dom";
 import './NavLockerB.css'
-import Ellipse1 from '../images/Ellipse1.jpg'
-
 
 
 

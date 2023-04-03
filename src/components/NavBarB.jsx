@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './NavBarB.css'
-import { Container } from 'react-bootstrap'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Postit1 from '../images/Postit1.jpg'
 import Ellipse1 from '../images/Ellipse1.jpg'

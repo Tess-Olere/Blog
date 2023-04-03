@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Stories.css'
-import { Container } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import NavBarB from '../components/NavBarB'
 import unsplash1 from '../images/unsplash1.png'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Stories({onSearch}) {
   const url = 'https://post-it-ylvw.onrender.com/api/v1/allblog'
@@ -12,7 +11,6 @@ export default function Stories({onSearch}) {
   const [isLoading, setLoading] = useState(true)
   const token =JSON.parse(localStorage.getItem('token'))
 
- 
 const fetchStory = async () => {
   const res = await fetch(url, {
     headers: {
@@ -27,9 +25,6 @@ useEffect(() => {
   fetchStory()
 }, [])
 
-     
-
-
   return (
     <div>
         <NavBarB text1='Stories' text2='Contact'/>
@@ -41,7 +36,7 @@ useEffect(() => {
         
         </div>
         <div>
-        <img src={unsplash1} alt="text image" />
+        <img src={unsplash1} alt="text"/>
         </div>
       
         </div>
