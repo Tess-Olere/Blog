@@ -38,15 +38,15 @@ export default function SignUp() {
                 <form onSubmit={signup}>
                     <div className='signup1'>
                     <label  htmlFor="name">UserName</label><br/>
-                    <input type="text" id='name' name='name' value={name} onChange={(e) => setName(e.target.value)}  className='bod-w'  required /><br/>
+                    <input type="text" id='name' name='name' value={name} onChange={(e) => setName(e.target.value)}  className='bod-w1'  required /><br/>
                     </div>
                     <div className='signup1'>
                     <label className='mt-5' htmlFor="email">Email Address</label> <br />
-                    <input type="text" id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} className='bod-w' required /><br/>
+                    <input type="text" id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} className='bod-w1' required /><br/>
                     </div>
                     <div className='signup1'>
                     <label className='mt-5' htmlFor="password">Password</label><br/>
-                    <input type="text" id='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)}  className='bod-w' required /><br/>
+                    <input type="text" id='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)}  className='bod-w1' required /><br/>
                     </div>
                     <div className='signup2'>
                     <button type='submit'className='signup-button'>Continue</button><br/>

@@ -29,7 +29,7 @@
     margin: 80px;
     border: 2px solid #888;
     width: 60vh;
-    border: 2px solid red
+   
   }
 
   .join-postit h2 {
@@ -68,11 +68,21 @@
       text-align: center;
     }
     .join-postit h2{
-      margin-top: 5vh;
+      margin-top: 8vh;
     }
     .signupform {
       margin: 30px;
       width: 100vh;
     }
-    
+    .signupform {
+      background-color: white;
+      margin: 30px;
+      border: 2px solid #888;
+      width: 60vh;
+      height: 91vh;
+    }
+    .bod-w {
+      width: 80%;
+      border-bottom: 1px solid #888;
+    }
   }

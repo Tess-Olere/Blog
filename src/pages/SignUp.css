@@ -17,9 +17,10 @@
   border: 2px solid #888;
   width: 60vh;
   height: 85vh;
+  
 }
 
-.bod-w{
+.bod-w1 {
     width: 50%;
     border: none;
     border-bottom: 1px solid #888;
@@ -71,19 +72,23 @@
   }
 
   @media screen and (max-width: 400px) {
-    .signup0 {
+    .signupform1 {
       background-color: white;
-      margin: 20px;
+      margin: 30px;
+      border: 2px solid #888;
+      width: 60vh;
+      height: 91vh;
+      
+    }
+    .signup {
+      background-color: white;
       width: 100%;
       height: 100%;
-      margin-top: 60px;
-      margin-bottom: 60px;
       
     }
-    .bod-w{
-      width: 70%;
-      border: none;
+    .bod-w1 {
+      width: 80%;
       border-bottom: 1px solid #888;
-      
     }
   }
+  
