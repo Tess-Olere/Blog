@@ -57,8 +57,7 @@ export default function NavBar({ text1, text2, text3, text4 }) {
               <NavLink to="/login" className="sTories">
                 <p>{text2}</p>
               </NavLink>
-              <NavLink
-                to="/login"
+              <NavLink to="/login"
                 className="sTories">
                 <p>{text3}</p>
               </NavLink>
