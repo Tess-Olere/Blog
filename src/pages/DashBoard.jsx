@@ -33,8 +33,8 @@ export default function DashBoard() {
          <div className='dashboard'>
         <Container className='imagetext1'>
                      <h1>Stay curious.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minus repellendus architecto sequi delectus,
-                      laborum ea odit eum dolor necessitatibus a, quasi mollitia hic. Similique eius corrupti facilis omnis sit.</p>
+                    <p>Stay curious, my friend! Embrace the unknown and let your curiosity lead you down new paths. 
+                      You never know what incredible discoveries and experiences await you when you keep an open mind and an insatiable appetite for knowledge.</p>
                       <NavLink to='/login'>
                  <button type='submit' className='staycurious-button'>Continue</button><br/>
                  </NavLink>

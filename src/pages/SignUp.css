@@ -1,23 +1,27 @@
-.join-postit h2 {
+.join-postit2 h2 {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
-
+.join-postit2 {
+  text-align: center;
+  margin-top: 20px;
+}
 .join-postit p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 
 }
-.signupform1 {
+.signup-form1 {
   background-color: white;
   padding: 10px;
   margin: 55px;
   border: 2px solid #888;
   width: 60vh;
   height: 85vh;
-  
+
 }
 
 .bod-w1 {
@@ -27,32 +31,23 @@
     
   }
 
-  .signup {
+  .sign-up {
     display: flex;
     justify-content: center;
     background-color: #888;
   }
 
-  .signup0 {
-    background-color: white;
-    padding: 10px;
-    margin: 80px;
-    border: 2px solid #888;
-    width: 80%;
-    
-  }
-
-  .signup1 {
+  .signup-1 {
     margin: auto;
     text-align: center;
   }
 
-  .existing-account {
+  .existing-account-1 {
     margin-top: 50px;
     text-align: center;
   }
 
-  .existing-account a {
+  .existing-account-1 a {
     text-decoration: none;
   }
 
@@ -66,29 +61,29 @@
     color: white;
   } 
   
-  .signup2 {
+  .signup-2 {
     display: flex;
     justify-content: center;
   }
 
   @media screen and (max-width: 400px) {
-    .signupform1 {
-      background-color: white;
+    .signup-form1 {
+      background-color: none;
       margin: 30px;
-      border: 2px solid #888;
-      width: 60vh;
-      height: 91vh;
-      
+      width: 100%;
+      height: 100%;
+      border: none;
     }
-    .signup {
+    .sign-up {
       background-color: white;
       width: 100%;
       height: 100%;
-      
+     
     }
     .bod-w1 {
       width: 80%;
       border-bottom: 1px solid #888;
     }
+   
   }
   

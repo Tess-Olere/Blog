@@ -55,9 +55,15 @@ const handleDelete = async (id) => {
             </NavLink>
         </div>
         <div className='mystories'>
-            <p><a href='/stories'>All</a></p>
-            <p><a href='/edit'>Drafts</a></p>
-            <p><a href='/MyStories'>Published</a></p>
+          <NavLink to='/stories'>
+            <p>All</p>
+            </NavLink>
+            <NavLink to='/edit'>
+            <p>Drafts</p>
+            </NavLink>
+            <NavLink to='/MyStories'>
+            <p>Published</p>
+            </NavLink>
         </div>
         <hr className='HR'/>
       </div>

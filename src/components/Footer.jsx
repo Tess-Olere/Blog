@@ -18,9 +18,9 @@ export default function Footer() {
         <div className='about-postit'>
        <h6>About Post<span className='B'>it.</span></h6>
         <p className='postittext'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Vero omnis eos itaque adipisci sit at cum ratione consequatur id doloremque, saepe 
-            repellendus aliquam ea voluptas, dolores nemo voluptatem necessitatibus quidem.</p>
+        Postit is a platform for me to share my thoughts, experiences, and passions with the world. 
+        It's a space where I can express myself creatively, connect with others who share similar interests, and learn from different perspectives. 
+        Through my blog, I hope to inspire and inform my readers, spark meaningful conversations, and ultimately make a positive impact in the world.</p>
             </div>
             <div className='Quick-Menu'>
                 <div className='Quick-Menu-nav'>

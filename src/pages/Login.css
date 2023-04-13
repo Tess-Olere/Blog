@@ -70,19 +70,23 @@
     .join-postit h2{
       margin-top: 8vh;
     }
+   
     .signupform {
-      margin: 30px;
-      width: 100vh;
-    }
-    .signupform {
-      background-color: white;
-      margin: 30px;
-      border: 2px solid #888;
-      width: 60vh;
-      height: 91vh;
+      background-color:  none;
+      margin: 0;
+      border: none;
+      width: 100%;
+      height: 100%;
+      
     }
     .bod-w {
       width: 80%;
       border-bottom: 1px solid #888;
+    }
+    .signup {
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      height: 100vh;
     }
   }
