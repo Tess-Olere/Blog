@@ -35,8 +35,8 @@ export default function WelcomePage() {
             <div>
                 <div className='welcome'>
                   <h1>Welcome {user},</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Esse quam quae consequatur velit tempora omnis, assumenda impedit eveniet autem voluptatibus repellendus magni possimus expedita! Dolores totam quibusdam itaque numquam debitis?</p>
+                    <p>Understand that there's always more to learn and discover. Approach new information and experiences with humility, 
+                      acknowledging that you don't know everything. This mindset keeps you open to new knowledge and prevents complacency.</p>
                 </div>
                 <div className='welcomepage-btn'> 
                 <NavLink to='/mystories'>
