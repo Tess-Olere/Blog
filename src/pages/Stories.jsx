@@ -31,8 +31,8 @@ useEffect(() => {
         <div className='unsplash1'>
         <div className='gotstory'>
         <h1>You've got a story, Post<span className='B'>it.</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellat sapiente dolore omnis repudiandae. 
-            Rem quia nesciunt eius quasi aliquam non nam enim quidem? Fugiat inventore maiores asperiores possimus nulla?</p>
+        <p> Surround yourself with curious individuals who share your enthusiasm for learning and exploration. Engage in conversations with them, exchange ideas, and collaborate on projects. 
+          Being in a community of curious minds can fuel your own curiosity and inspire new interests.</p>
         
         </div>
         <div>
